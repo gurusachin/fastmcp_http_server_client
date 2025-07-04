@@ -1,3 +1,17 @@
+FASTMCP BASED MCP SERVER AND CLIENT WITH TRANSPORT AS STREAMBALE-HTTP
+
+PreRequisites:
+**To install uv:**
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+1. Clone this repo 
+2. cd Repo
+3. Setup a venv using uv
+   ```uv venv```
+   ``` source .venv/bin/activate ```
+4. install dependecies ```uv add "mcp[cli]" httpx```
+
+
 **for running server :**
  uv run main.py 
 
