@@ -1,5 +1,7 @@
 FASTMCP BASED MCP SERVER AND CLIENT WITH TRANSPORT AS STREAMBALE-HTTP
 
+MCP server converts OAS-spec jsons to MCP servers
+
 PreRequisites:
 **To install uv:**
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -22,3 +24,6 @@ uvicorn mcp_client_session:app --reload --port 9000
 npx @modelcontextprotocol/inspector
  
 Note: while running inspector: copy the session id from the terminal output in the configuration input. Leave other things as it is.
+
+Note: While using MCP server - get your access token and paste it in the file
+Note: While using MCP client - paste your openAI- API key
